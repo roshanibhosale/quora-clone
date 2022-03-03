@@ -97,7 +97,7 @@ function QuoraHeader() {
           <input type="text" placeholder="Search questions" />
         </div>
         <div className="qHeader-Rem">
-          <span onClick={handleLogout}>
+          <span onClick={handleLogout} title="Logout">
             <Avatar src={user?.photo} />
           </span>
 

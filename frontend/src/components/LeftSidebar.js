@@ -1,11 +1,11 @@
 import React from "react";
-import "./css/Sidebar.css";
-import SidebarOptions from "./SidebarOptions";
+import "./css/LeftSidebar.css";
+import LSidebarOptions from "./LeftSidebarOptions";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SidebarOptions />
+      <LSidebarOptions />
     </div>
   );
 }

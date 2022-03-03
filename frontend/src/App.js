@@ -28,7 +28,6 @@ function App() {
   }, [dispatch]);
   return (
     <div className="App">
-      {/* <h1>This is for testing</h1> */}
       {user ? <Quora /> : <Login />}
     </div>
   );

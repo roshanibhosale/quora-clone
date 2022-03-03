@@ -2,9 +2,9 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import { useSelector } from "react-redux";
 import { selectUser } from "../feature/userSlice";
-import "./css/QuoraBox.css";
+import "./css/QuoraMain.css";
 
-function QuoraBox() {
+function QuoraMain() {
   const user = useSelector(selectUser);
   return (
     <div className="quoraBox">
@@ -18,4 +18,4 @@ function QuoraBox() {
   );
 }
 
-export default QuoraBox;
+export default QuoraMain;
